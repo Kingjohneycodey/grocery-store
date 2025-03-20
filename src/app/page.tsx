@@ -1,10 +1,14 @@
+import Header from "@/components/home/Header";
+import Hero from "@/components/home/Hero";
 
 
 export default function Home() {
   return (
     <div>
-      <div className="text-center mt-40">
-        <h1 className="text-6xl">Demo Project</h1>
+      <div className="">
+        <Header/>
+        <Hero/>
+   
         <p className="text-2xl">Let's start building</p>
       </div>
     </div>
