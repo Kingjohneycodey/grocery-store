@@ -1,3 +1,5 @@
+"use client"
+import Catogories from "@/components/home/Catogories";
 import Header from "@/components/home/Header";
 import Hero from "@/components/home/Hero";
 
@@ -8,8 +10,9 @@ export default function Home() {
       <div className="">
         <Header/>
         <Hero/>
-   
-        <p className="text-2xl">Let's start building</p>
+
+        <Catogories />
+
       </div>
     </div>
   );
